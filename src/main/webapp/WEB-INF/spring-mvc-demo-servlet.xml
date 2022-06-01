@@ -15,7 +15,11 @@
 	<context:component-scan base-package="io.eho.springdemo" />
 
 	<!-- Step 4: Add support for conversion, formatting and validation support -->
+	<!-- Also add mapping for static resources	-->
 	<mvc:annotation-driven/>
+
+	<mvc:resources mapping="/resources/**"
+				   location="/resources/"></mvc:resources>
 
 	<!-- Step 5: Define Spring MVC view resolver -->
 	<bean
