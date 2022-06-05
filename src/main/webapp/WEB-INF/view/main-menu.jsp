@@ -16,8 +16,8 @@
           href="${pageContext.request.contextPath}/resources/css/style.css">
 
 <%-- adding .js script references--%>
-<%--    <script src="${pageContext.request.contextPath}/resources/js/p5.js"></script>--%>
-<%--    <script src="${pageContext.request.contextPath}/resources/js/perlin_noise.js"></script>--%>
+    <script src="${pageContext.request.contextPath}/resources/js/p5.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/perlin_noise.js"></script>
 
 </head>
 <body>
@@ -32,7 +32,8 @@
 
 <br><br>
 <%-- adding an image from resources --%>
-<img src="${pageContext.request.contextPath}/resources/images/test.jpg" />
+<img src="${pageContext.request.contextPath}/resources/images/test.jpg"
+     alt="test-image" />
 
 </body>
 </html>
