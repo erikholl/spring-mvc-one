@@ -36,6 +36,10 @@
 
 <br><br>
 
+<a href="customer/showForm">Customer form</a>
+
+<br><br>
+
 <%-- adding an image from resources --%>
 <img src="${pageContext.request.contextPath}/resources/images/test.jpg"
      alt="test-image" />

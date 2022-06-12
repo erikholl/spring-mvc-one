@@ -20,4 +20,4 @@ NOTE: main-menu view contains references to .js files which are excluded
 from this repo.
 
 Repo for sections:
-- 11 up to 13 Building Spring Web apps, Controllers, Views
+- 11 up to 15 Building Spring Web apps, Controllers, Views
