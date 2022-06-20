@@ -15,7 +15,7 @@ import javax.validation.Valid;
 @RequestMapping("/customer")
 public class CustomerController {
 
-    // add an initbinder to convert input string
+    // add an init binder to convert input string
     // remove leading and trailing white spaces
     // resolve validation issue when only spaces are provided
 
@@ -38,6 +38,8 @@ public class CustomerController {
             BindingResult bindingResult) {
 
         System.out.println("Last name: |" + customer.getLastName() + "|");
+
+        System.out.println("Binding result: " + bindingResult);
 
         if (bindingResult.hasErrors()) {
             return "customer-form";
